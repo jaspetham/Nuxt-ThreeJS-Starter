@@ -1,6 +1,7 @@
 body {
   overscroll-behavior: none;
   -webkit-font-smoothing: antialiased;
+  color:white;
 }
 
 * {
@@ -11,8 +12,13 @@ body {
 #container {
   width: 100vw;
   height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 49;
 }
 
 canvas {
-  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
